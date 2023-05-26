@@ -10,7 +10,7 @@ const Seller = sequelize.define('seller', {
         allowNull: false,
         primaryKey: true
     },
-    price:  Sequelize.DOUBLE,
+    price:  Sequelize.INTEGER,
     name: Sequelize.STRING
 });
 
